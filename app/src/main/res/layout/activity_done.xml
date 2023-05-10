@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.DoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="@dimen/_63sdp"
+            android:layout_marginTop="@dimen/_155sdp"
+            android:src="@drawable/gif11" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/messageSent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_385sdp"
+        android:text="Message Sent"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:textSize="35sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

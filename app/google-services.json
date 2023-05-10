@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "905233176841",
+    "project_id": "chatgenix",
+    "storage_bucket": "chatgenix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905233176841:android:b8dee19d52c4b86bf4dbd8",
+        "android_client_info": {
+          "package_name": "com.example.chatgenix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905233176841-q0ladj24aagol5d2rbq2l92o0kp7v4nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatgenix",
+            "certificate_hash": "16332a2c2ca8a29326cd0f71762e0c461f8ba7f5"
+          }
+        },
+        {
+          "client_id": "905233176841-cubupi4bt65m8tvq9heq9jeem837ubum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLqZJmjtOonN5PnWSyxpsVL5FOTHvlKRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905233176841-cubupi4bt65m8tvq9heq9jeem837ubum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

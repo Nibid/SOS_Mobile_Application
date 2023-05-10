@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".activities.AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chatgenix"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:textSize="35sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_35sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:text="@string/about"
+            android:textSize="@dimen/_13sdp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_280sdp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:background="@drawable/background_image"
+            android:src="@drawable/gif1" />
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="55dp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:text="Group Members"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_325sdp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_325sdp">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="55dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:text="Jayanth S     1VJ19CS019"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="55dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:text="M Roopa Shree 1VJ19CS026"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_375sdp">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="55dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:text="Narayana Swamy K 1VJ19CS039"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="55dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:text="Nibid Raj Shrestha 1VJ19CS040"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_425sdp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:background="@drawable/background_image"
+            android:src="@drawable/gif3" />
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="55dp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:text="Under The Guildines Of"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_470sdp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_470sdp">
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="55dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:text="Assistant Prof. Rajani M Mam"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

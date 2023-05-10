@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fall_detected"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FallDetectedActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+    <TextView
+        fontPath="fonts/ubuntu_bold.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/secondary"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/mini"
+        android:text="@string/txt_did_you_fall"
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium_txt"
+        tools:ignore="MissingPrefix" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_65sdp"
+            android:src="@drawable/gif22" />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginEnd="@dimen/secondary"
+        android:layout_marginStart="@dimen/secondary"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/btn_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:text="YES"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="214dp" />
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_alert0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginStart="@dimen/primary"
+        android:layout_marginTop="@dimen/_530sdp"
+        android:layout_marginEnd="@dimen/primary"
+        android:layout_marginBottom="@dimen/primary"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/mini"
+        android:text="@string/format_alert0"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/small_txt" />
+
+    <TextView
+        android:id="@+id/txt_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_toRightOf="@+id/txt_alert0"
+        android:layout_marginTop="@dimen/_530sdp"
+        android:layout_marginEnd="@dimen/primary"
+        android:layout_marginBottom="@dimen/primary"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/mini"
+        android:text="@string/format_alert"
+        android:textColor="@color/error"
+        android:textSize="@dimen/small_txt" />
+
+    <TextView
+        android:id="@+id/txt_alert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_toRightOf="@+id/txt_alert"
+        android:layout_marginTop="@dimen/_530sdp"
+        android:layout_marginEnd="@dimen/primary"
+        android:layout_marginBottom="@dimen/primary"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/mini"
+        android:text="@string/format_alert2"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/small_txt" />
+
+</RelativeLayout>
