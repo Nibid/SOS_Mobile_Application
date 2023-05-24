@@ -74,7 +74,23 @@ x-axis and the vertical direction.
 ➢ Determine possible falls from the simple threshold method.
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/01b94411-0d4f-4eaa-ae52-6a1056b2a9d2" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/21929c2d-67f4-4b89-b852-dabb90ec49dd" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/b0c8b26d-9e1f-4b07-a50b-87b47088942e" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/0acc33c5-b5bb-43c1-b478-7f13d5e75401" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/42bed3ee-ed2e-436a-b267-fe3df654cd2f" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/38d1cf4b-c63c-429a-9765-253dd6374693" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/85dcd580-26a6-4def-9b63-cd5c3e1fa37d" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/49093dc2-6561-4920-9b00-000d83b2b530" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/54f49b0f-0b58-4aae-b8ff-172f61865db2" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/e551b649-9b96-4872-97a1-32f3775e5f01" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/af666da2-24ac-4f1c-a01f-0c1ced121186" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/b73d400d-7e5f-4236-ad5f-44dee4ce93cd" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/f8e3f771-c9ec-49db-bea5-8efb8797b62e" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/64fac6cc-87f7-481b-863f-b50ada1a9e6d" height="450" width="250" >
+<img src="https://github.com/Nibid/SOS_Mobile_Application/assets/111981175/ddc91923-9284-45a2-b831-89cd564f4c65" height="450" width="250" >
+  
+
 
 
 ## Authors
